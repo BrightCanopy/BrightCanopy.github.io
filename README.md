@@ -1,5 +1,3 @@
-# Bright Canopy
+## Our list of products and services
 
-We make things that help people.
-
- - [Startup Tools](https://github.com/BrightCanopy/startup-tools/blob/master/README.md) - A curated list of tools for your startup.
+ - [Startup Tools](https://github.com/BrightCanopy/startup-tools/blob/master/README.md) - Everything you need to build, measure and learn so your idea can thrive and grow.
