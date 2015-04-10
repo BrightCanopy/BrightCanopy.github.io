@@ -1,13 +1,38 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
-  border-radius: 100px;
+  border-radius: 5rem;
+  padding: 1.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .button.button-primary.sign-up {
   background-color: green;
-  border-radius: 100px;
+  border-radius: 5rem;
   font-size: 3.6rem;
+  height: 6rem;
+}
+
+.hero-question {
+	font-weight: 400;
+	padding-left: 5rem;
+	padding-top: 2rem;
+}
+
+.hero-value {
+	padding: 2rem;
+}
+
+.logo {
+	padding: 1.2rem 0 0 1.2rem;
+	height: 125px;
+}
+
+body {
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  color: #000000;
 }
 
 /* Sections
@@ -21,10 +46,50 @@
   margin-bottom: 1.2rem;
 }
 
+/* Signup form
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#signup {
+	text-align: center;	
+	background-color: #f7941e;
+	border-radius: 4px;
+	padding: 25px;
+	padding-bottom: 35px;	
+	max-width: 450px;
+	display: none;
+	margin: 0 10px;
+}
+
+#mc_embed_signup
+{
+	background-color: #ffffff;
+}
+
+#mc_embed_signup p {
+	padding-right: 4rem;
+	width: 100%;
+}
+
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero {
-  background-image: url('../images/bluesky-bg.jpg');
+/*
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  color: #000000;
+*/
+}
+
+.signup {
+	display: none;
+}
+
+.signage {
+	background-image: linear-gradient(
+		rgba(255, 255, 255, 0.9), 
+		rgba(255, 255, 255, 0.9)
+    );
+	color: black;
 }
 
 .phones {
@@ -145,7 +210,7 @@
     padding: 20rem 0 19rem;
   }
   .hero {
-    padding: 22rem 0;
+    padding: 10rem 0 30rem 0;
   }
   .hero-heading {
     font-size: 3.0rem;
