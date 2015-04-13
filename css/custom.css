@@ -14,6 +14,12 @@
   height: 6rem;
 }
 
+.center {
+  display: block;
+  float: none !important;
+  margin: 0 auto !important;
+}
+
 .hero-question {
 	font-weight: 400;
 	padding-left: 5rem;
