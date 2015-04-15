@@ -1,20 +1,20 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button {
+#mc_embed_signup .button {
   border-radius: 5rem;
   padding: 1.2rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.button.button-primary.sign-up {
+#mc_embed_signup .button.button-primary.sign-up {
   background-color: green;
   border-radius: 5rem;
   font-size: 3.6rem;
   height: 6rem;
 }
 
-.center {
+#mc_embed_signup .center {
   display: block;
   float: none !important;
   margin: 0 auto !important;
@@ -36,11 +36,14 @@
 }
 
 body {
-  background-image: url('../images/hero-bg.jpg');
+  background: url('../images/hero-bg.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #000000;
 }
 
+.email {
+	width: 100%;
+}
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
