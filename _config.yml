@@ -1,0 +1,28 @@
+# Site settings
+title: Bright Canopy
+header-img: img/home-bg.jpg
+email: support@fra.me
+copyright_name: Mainframe2 Inc.
+description: "Run Second Life in your Web Browser."
+baseurl: ""
+url: "https://www.brightcanopy.com/"
+twitter_username: BrightCanopyApp
+github_username:  
+facebook_username:  BrightCanopy
+email_username:  suppor@fra.me
+landing: https://www.brightcanopy.com
+privacy: https://www.brightcanopy.com/privacy 
+terms: https://www.brightcanopy.com/terms
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]

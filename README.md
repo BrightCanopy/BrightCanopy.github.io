@@ -1,3 +1,4 @@
-## Our List of Products and Services
+# Bright Canopy Blog
 
- - [Startup Tools](https://github.com/BrightCanopy/startup-tools/blob/master/README.md) - Everything you need to build, measure and learn so your idea can thrive and grow.
+
+A simple export of the Bright Canopy blog to Jekyll
